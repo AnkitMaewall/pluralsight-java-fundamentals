@@ -1,0 +1,21 @@
+{
+  "name": "pluralsight-java-fundamentals",
+  "version": "1.0.0",
+  "description": "Learn Java",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --hello",
+    "hello": "npm run helloWorld"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkitMaewall/pluralsight-java-fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkitMaewall/pluralsight-java-fundamentals/issues"
+  },
+  "homepage": "https://github.com/AnkitMaewall/pluralsight-java-fundamentals#readme"
+}
