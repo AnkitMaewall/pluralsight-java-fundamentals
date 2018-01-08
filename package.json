@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm-run-all --hello",
-    "hello": "npm run helloWorld"
+    "start": "node helloWorld.js",
+    "hello": "npm run helloWorld",
+    "security-check": "nsp check"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AnkitMaewall/pluralsight-java-fundamentals/issues"
   },
-  "homepage": "https://github.com/AnkitMaewall/pluralsight-java-fundamentals#readme"
+  "homepage": "https://github.com/AnkitMaewall/pluralsight-java-fundamentals#readme",
+  "dependencies": {
+    "nsp": "^3.1.0"
+  }
 }
